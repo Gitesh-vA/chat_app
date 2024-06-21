@@ -21,7 +21,7 @@ function createWindow() {
     // isDev
     //   ? 'https://chat-app-flame-rho.vercel.app/'
     //   : `file://${path.join(__dirname, '../build/index.html')}`
-    'https://chat-p3ydd7yti-gitesh-developers-projects.vercel.app'
+    'https://chat-42wdtu05q-gitesh-developers-projects.vercel.app'
   )
 
   win.webContents.openDevTools();
