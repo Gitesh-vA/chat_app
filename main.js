@@ -20,8 +20,8 @@ function createWindow() {
   win.loadURL(
     // isDev
     //   ? 'https://chat-app-flame-rho.vercel.app/'
-    //   : `file://${path.join(__dirname, '../build/index.html')}`
-    'https://chat-p370dmpld-gitesh-developers-projects.vercel.app'
+       `file://${path.join(__dirname, '../build/index.html')}`
+    // 'https://chat-p370dmpld-gitesh-developers-projects.vercel.app'
   )
 
   win.webContents.openDevTools();
