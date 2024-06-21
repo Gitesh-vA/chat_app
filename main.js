@@ -19,7 +19,7 @@ function createWindow() {
 
   win.loadURL(
     isDev
-      ? 'http://localhost:3000'
+      ? 'https://chat-app-flame-rho.vercel.app/'
       : `file://${path.join(__dirname, '../build/index.html')}`
   )
 
