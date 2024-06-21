@@ -18,9 +18,10 @@ function createWindow() {
   })
 
   win.loadURL(
-    isDev
-      ? 'https://chat-app-flame-rho.vercel.app/'
-      : `file://${path.join(__dirname, '../build/index.html')}`
+    // isDev
+    //   ? 'https://chat-app-flame-rho.vercel.app/'
+    //   : `file://${path.join(__dirname, '../build/index.html')}`
+    'https://chat-app-flame-rho.vercel.app/'
   )
 
   win.webContents.openDevTools();
